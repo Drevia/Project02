@@ -24,6 +24,9 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 	}
 
 	/**
+	 *Enregistre chaque ligne du fichier dans un String. Le string
+	 *est ensuite ajouté a la liste de String afin d'obtenir tout
+	 * les Symptoms dans une seule variable
 	 *
 	 * @return List de String contenus dans un fichier du filepath
 	 */
@@ -43,8 +46,10 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 				}
 				reader.close();
 			}catch(FileNotFoundException e){
+				//on catch la possibilité que le fichier indiqué ne soit pas trouvé
 				System.err.println("The path to the file is incorrect or the file is missing");
 			} catch (IOException e) {
+				//on catch tout autre exception de type IOException
 				System.err.println("Caught IOException " + e.getMessage());
 			}
 		}
