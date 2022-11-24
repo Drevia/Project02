@@ -10,7 +10,7 @@ import java.util.TreeMap;
  * grace à AnalyticsCounter et de noter leur nombres d'occurences
  */
 public class AnalyticsWriter {
-    
+
     public static void writeSymptoms(TreeMap<String, Integer> sorted) throws IOException {
         FileWriter writer = new FileWriter("results.out");
 
