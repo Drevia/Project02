@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e7d1d76-4247-452c-b2b0-77e47365f783" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Project02Eclipse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/out.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/ISymptomReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/KnownSymptom$symptoms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/KnownSymptom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/ReadSymptomDataFromFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/exception/EmptyFileException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/KnownSymptom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/exception/EmptyFileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GR3XKGHPSMR28xZelRyqhWYHHA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/deneker/Desktop/Autre/Formation Developpeur Java/Cours_2/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application/Project02Eclipse&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="MyApp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="Project02Eclipse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e7d1d76-4247-452c-b2b0-77e47365f783" name="Changes" comment="" />
+      <created>1666337616025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666337616025</updated>
+      <workItem from="1666337621810" duration="869000" />
+      <workItem from="1666338751593" duration="148000" />
+      <workItem from="1666338922442" duration="3359000" />
+      <workItem from="1666346473049" duration="222000" />
+      <workItem from="1666347025783" duration="9559000" />
+      <workItem from="1666857812905" duration="3501000" />
+      <workItem from="1666877117338" duration="1443000" />
+      <workItem from="1666941782724" duration="292000" />
+      <workItem from="1666943058475" duration="7360000" />
+      <workItem from="1667549361297" duration="1824000" />
+      <workItem from="1667945678523" duration="598000" />
+      <workItem from="1669275825184" duration="310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
