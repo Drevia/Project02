@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e7d1d76-4247-452c-b2b0-77e47365f783" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Project02Eclipse.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/out.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/ISymptomReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/KnownSymptom$symptoms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/KnownSymptom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/ReadSymptomDataFromFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/exception/EmptyFileException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/KnownSymptom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hemebiotech/exception/EmptyFileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project02Eclipse/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/AnalyticsWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/AnalyticsWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/ReadSymptomDataFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project02Eclipse/com/hemebiotech/analytics/ReadSymptomDataFromFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/deneker/Desktop/Autre/Formation Developpeur Java/Cours_2/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application/Project02Eclipse/src",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/deneker/Desktop/Autre/Formation Developpeur Java/Cours_2/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application/Project02Eclipse/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.Main" />
@@ -115,7 +103,8 @@
       <workItem from="1666943058475" duration="7360000" />
       <workItem from="1667549361297" duration="1824000" />
       <workItem from="1667945678523" duration="598000" />
-      <workItem from="1669275825184" duration="4514000" />
+      <workItem from="1669275825184" duration="4764000" />
+      <workItem from="1669286507625" duration="1480000" />
     </task>
     <servers />
   </component>

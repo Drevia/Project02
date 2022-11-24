@@ -45,7 +45,7 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 					line = reader.readLine();
 				}
 				reader.close();
-			}catch(FileNotFoundException e){
+			} catch(FileNotFoundException e){
 				//on catch la possibilité que le fichier indiqué ne soit pas trouvé
 				System.err.println("The path to the file is incorrect or the file is missing");
 			} catch (IOException e) {
