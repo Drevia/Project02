@@ -3,41 +3,26 @@ package com.hemebiotech.analytics;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.TreeMap;
 
+/**
+ * Class contenant la méthode s'occupant de compter les symptoms qui ont été lus dans readSymptomsDateFromFile
+ *
+ */
 public class AnalyticsCounter {
-	private static int headacheCount = 0;	// initialize to 0
-	private static int rashCount = 0;		// initialize to 0
-	private static int pupilCount = 0;		// initialize to 0
-	
-	public static void main(String args[]) throws Exception {
-		// first get input
-		BufferedReader reader = new BufferedReader (new FileReader("symptoms.txt"));
-		String line = reader.readLine();
+	//variable indiquant le chemin du fichier a lire
+	private final ISymptomReader symptomReader = new ReadSymptomDataFromFile("symptoms.txt");
 
-		int i = 0;	// set i to 0
-		int headCount = 0;	// counts headaches
-		while (line != null) {
-			i++;	// increment i
-			System.out.println("symptom from file: " + line);
-			if (line.equals("headache")) {
-				headCount++;
-				System.out.println("number of headaches: " + headCount);
-			}
-			else if (line.equals("rush")) {
-				rashCount++;
-			}
-			else if (line.contains("pupils")) {
-				pupilCount++;
-			}
-
-			line = reader.readLine();	// get another symptom
+	/**
+	 *
+	 * @return TreeMap des symptoms contenus dans symptomsReader
+	 */
+	public TreeMap<String, Integer> countSymptoms() {
+		final TreeMap<String, Integer> symptomsMap = new TreeMap<>();
+		for (String s : symptomReader.GetSymptoms())
+		{
+			symptomsMap.merge(s, 1, Integer::sum);
 		}
-		
-		// next generate output
-		FileWriter writer = new FileWriter ("result.out");
-		writer.write("headache: " + headacheCount + "\n");
-		writer.write("rash: " + rashCount + "\n");
-		writer.write("dialated pupils: " + pupilCount + "\n");
-		writer.close();
+		return symptomsMap;
 	}
 }
